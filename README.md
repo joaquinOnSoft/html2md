@@ -21,8 +21,6 @@ where:
 	-h, --help: Print this help
 	-s, --source <source_path>: (Mandatory) source file or folder
 	-d, --dest <dest_path>: (Mandatory) destination file or folder
-	-r, --replace : (Optional) Flag: Replace Google Drive links to local links (It WON'T download the content by default. You must use in conjunction with --download to force the download)
-	-D, --download : (Optional) Flag: Download Google Drive content to local drive.This option will have effect only if is used in conjunction with --replace, otherwise will be ignored
 	-u, --url: (Optional) Use the page title, header of level 1 or the last section of the URL as URL description (only when URL link a description are the same). NOTE: This option can be slow.
 	-t, --timeout <seconds>: (Optional) Timeout, in seconds, to use in link validation connections, e.g. "2" seconds. By default is unlimited
 ```
