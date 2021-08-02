@@ -1,7 +1,7 @@
 import os
 from unittest import TestCase
 
-from gsites2md.URLUtils import URLUtils
+from html2md.URLUtils import URLUtils
 
 
 class TestURLUtils(TestCase):

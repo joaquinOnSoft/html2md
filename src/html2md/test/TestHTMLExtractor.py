@@ -1,6 +1,6 @@
 import unittest
 
-from gsites2md.HTMLExtractor import HTMLExtractor
+from html2md.HTMLExtractor import HTMLExtractor
 
 
 class TestHTMLExtractor(unittest.TestCase):

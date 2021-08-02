@@ -1,10 +1,10 @@
 import unittest
 
-import gsites2md.test.TestHTML2md as TestHTML2md
-import gsites2md.test.TestHTML2mdConverter as TestHTML2mdConverter
-import gsites2md.test.TestHTMLExtractor as TestHTMLExtractor
-import gsites2md.test.TestHTMLParser2md as TestHTMLParser2md
-import gsites2md.test.TestURLUtils as TestURLUtils
+import html2md.test.TestHTML2md as TestHTML2md
+import html2md.test.TestHTML2mdConverter as TestHTML2mdConverter
+import html2md.test.TestHTMLExtractor as TestHTMLExtractor
+import html2md.test.TestHTMLParser2md as TestHTMLParser2md
+import html2md.test.TestURLUtils as TestURLUtils
 
 # initialize the test suite
 loader = unittest.TestLoader()

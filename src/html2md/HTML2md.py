@@ -3,14 +3,14 @@ import logging
 import os
 import shutil
 
-from gsites2md.HTMLParser2md import HTMLParser2md
-from gsites2md.URLUtils import URLUtils
+from html2md.HTMLParser2md import HTMLParser2md
+from html2md.URLUtils import URLUtils
 
 
 class HTML2md:
 
     @staticmethod
-    def process(source: str, destination: str, url: bool, timeout: float):
+    def process(source: str, destination: str, url: bool, timeout: int):
         """
         Convert and HTML file or folder (with all their nested files) in a Markdown file.
         :param source:  source file or folder
@@ -25,7 +25,7 @@ class HTML2md:
             HTML2md.__process_folder(source, destination, url, timeout)
 
     @staticmethod
-    def __process_folder(source: str, destination: str, url: bool, timeout: float):
+    def __process_folder(source: str, destination: str, url: bool, timeout: int):
 
         for dir_path, dirs, files in os.walk(source):
 
@@ -49,14 +49,13 @@ class HTML2md:
                     f_out_name = f_out_name.replace(".html", ".md").replace(".htm", ".md")
                     logging.debug("HTML2MD: " + f_in_name)
 
-                    config4files = HTML2md.update_cloned_config(f_in_name, f_out_name, url, timeout)
-                    HTML2md.__process_file(config4files)
+                    HTML2md.__process_file(f_in_name, f_out_name, url, timeout)
                 else:
                     logging.debug("Copying: " + f_in_name)
                     shutil.copy2(f_in_name, f_out_name)
 
     @staticmethod
-    def __process_file(source: str, destination: str, url: bool, timeout: float):
+    def __process_file(source: str, destination: str, url: bool, timeout: int):
         """
         Convert and HTML file in a Markdown file.
         :param source:  source file or folder

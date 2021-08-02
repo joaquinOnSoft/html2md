@@ -2,6 +2,7 @@ import logging
 import os
 import re
 import urllib
+import socket
 
 import requests
 
@@ -119,7 +120,7 @@ class URLUtils:
         return exist
 
     @staticmethod
-    def get_html_from_url(url: str, timeout=-1) -> str:
+    def get_html_from_url(url: str, timeout: int = -1) -> str:
         html = ""
 
         if url is not None and url != "":
@@ -142,6 +143,8 @@ class URLUtils:
                     if f.headers.get_content_charset() is not None:
                         charset = f.headers.get_content_charset()
                     html += f.read().decode(charset, errors='ignore')
+            except socket.timeout as e:
+                logging.warning(f"Timeout reading URL: {url}")
             except urllib.error.URLError as e:
                 logging.warning(f"Error reading URL: {url} : {e.reason}")
             except UnicodeDecodeError as e:

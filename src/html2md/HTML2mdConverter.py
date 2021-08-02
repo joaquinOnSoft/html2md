@@ -2,8 +2,8 @@ import logging
 import re
 from urllib.parse import unquote
 
-from gsites2md.HTMLExtractor import HTMLExtractor
-from gsites2md.URLUtils import URLUtils
+from html2md.HTMLExtractor import HTMLExtractor
+from html2md.URLUtils import URLUtils
 
 
 class HTML2mdConverter:
@@ -21,7 +21,7 @@ class HTML2mdConverter:
     INDEX_ATTRIBUTE_VALUE = 2
 
     @staticmethod
-    def a(href: str, data: str, friendly_url_desc: bool = False, timeout: float = -1) -> str:
+    def a(href: str, data: str, friendly_url_desc: bool = False, timeout: int = -1) -> str:
         if data is not None:
             if data == href and friendly_url_desc:
                 # Replace link description with the page title instead

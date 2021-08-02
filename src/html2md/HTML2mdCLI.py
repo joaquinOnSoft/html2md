@@ -7,7 +7,7 @@ import logging
 import os
 import sys
 
-from gsites2md.HTML2md import HTML2md
+from html2md.HTML2md import HTML2md
 
 
 def print_help():
@@ -20,16 +20,8 @@ def print_help():
     print('\t-d, --dest <dest_path>: (Mandatory) destination file or folder')
     print('\t-u, --url: (Optional) Use the page title, header of level 1 or the last section of the '
           'URL as URL description (only when URL link a description are the same). NOTE: This option can be slow.')
-    print('\t-t, --timeout <seconds>: (Optional) Timeout, in seconds, to use in link validation connections. '
-          'It admits milliseconds, e.g. "0.750" or seconds "2". By default is unlimited')
-
-
-def isfloat(value):
-    try:
-        float(value)
-        return True
-    except ValueError:
-        return False
+    print('\t-t, --timeout <seconds>: (Optional) Timeout, in seconds, to use in link validation connections, '
+          'e.g. "2" seconds. By default is unlimited')
 
 
 def main(argv):
@@ -65,8 +57,8 @@ def main(argv):
         elif opt in ("-u", "--url"):
             url = True
         elif opt in ("-t", "--timeout"):
-            if isfloat(arg):
-                timeout = arg
+            if arg.isdigit():
+                timeout = int(arg)
             else:
                 print_help()
                 sys.exit(f"Invalid timeout value: {arg}")

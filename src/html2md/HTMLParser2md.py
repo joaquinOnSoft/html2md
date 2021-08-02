@@ -2,7 +2,7 @@ import logging
 import re
 from html.parser import HTMLParser
 
-from gsites2md.HTML2mdConverter import HTML2mdConverter
+from html2md.HTML2mdConverter import HTML2mdConverter
 
 
 class HTMLParser2md(HTMLParser):
@@ -43,7 +43,7 @@ class HTMLParser2md(HTMLParser):
     # Unordered list tag: <ul>
     HTML_TAG_UL = "ul"
 
-    def __init__(self, url: bool = False, timeout: float = -1):
+    def __init__(self, url: bool = False, timeout: int = -1):
         """
         :param url: (boolean) Use the page title, header of level 1 or the last section of the
         URL as URL description (only when URL link a description are the same). NOTE: This option can be slow
