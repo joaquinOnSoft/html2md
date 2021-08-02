@@ -23,7 +23,7 @@ class HTML2mdConverter:
     @staticmethod
     def a(href: str, data: str, friendly_url_desc: bool = False, timeout: int = -1) -> str:
         if data is not None:
-            if data == href and friendly_url_desc:
+            if (data == href or data is None) and friendly_url_desc:
                 # Replace link description with the page title instead
                 # of using the URL as description
                 logging.debug(f"Replace link description with the page title {href}")
