@@ -1,0 +1,412 @@
+2021-08-01 13:54:17 INFO     [45]HTML2mdCLI.py: Started
+2021-08-01 13:54:17 DEBUG    [54]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/index.html
+2021-08-01 13:54:17 DEBUG    [182]requests.py: Making request: POST https://oauth2.googleapis.com/token
+2021-08-01 13:54:17 DEBUG    [971]connectionpool.py: Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2021-08-01 13:54:18 DEBUG    [452]connectionpool.py: https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2021-08-01 13:54:18 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:18 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://ko-fi.com/fiquipedia
+2021-08-01 13:54:19 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://algoquedaquedecir.blogspot.com.es/
+2021-08-01 13:54:20 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/.DS_Store
+2021-08-01 13:54:20 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/licenciamiento
+2021-08-01 13:54:20 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:20 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://web.archive.org/web/20120827030522/www.juntadeandalucia.es/averroes/mochiladigital/legales.html
+2021-08-01 13:54:21 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.xarxatic.com/infografia-sobre-las-licencias-creative-commons/
+2021-08-01 13:54:27 WARNING  [146]URLUtils.py: Error reading URL: http://www.xarxatic.com/infografia-sobre-las-licencias-creative-commons/ : Not Found
+2021-08-01 13:54:27 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://algoquedaquedecir.blogspot.com/2018/04/compartid-malditos.html
+2021-08-01 13:54:28 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://algoquedaquedecir.blogspot.com/2020/10/fiquipedia-pasado-presente-y-futuro.html
+2021-08-01 13:54:28 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/referencias-a-fiquipedia
+2021-08-01 13:54:28 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:28 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://formacionprofesorado.educacion.es/version/v2/index.php/es/experiencias/278-creacion-reutilizacion-y-difusion-de-contenidos
+2021-08-01 13:54:32 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://cedec.intef.es/fiquipedia/
+2021-08-01 13:54:33 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.educa.jcyl.es/crol/es/recursos-educativos/fiquipedia
+2021-08-01 13:54:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/FiQuiPedia/status/716640244976713729
+2021-08-01 13:54:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://rseq.org/material-didactico/item/1071-resumen-de-las-normas-iupac-2005-de-nomenclatura-de-qu%C3%ADmica-inorg%C3%A1nica-para-su-uso-en-ense%C3%B1anza-secundaria-y-recomendaciones-did%C3%A1cticas
+2021-08-01 13:54:38 WARNING  [146]URLUtils.py: Error reading URL: http://rseq.org/material-didactico/item/1071-resumen-de-las-normas-iupac-2005-de-nomenclatura-de-qu%C3%ADmica-inorg%C3%A1nica-para-su-uso-en-ense%C3%B1anza-secundaria-y-recomendaciones-did%C3%A1cticas : Not Found
+2021-08-01 13:54:38 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.educaciontrespuntocero.com/recursos/recursos-para-fisica/95530.html
+2021-08-01 13:54:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.educaciontrespuntocero.com/experiencias/frikiexamenes-estres-estudiantes/
+2021-08-01 13:54:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://elpais.com/espana/madrid/2020-10-01/madrid-gasta-cerca-de-17-millones-de-euros-en-materiales-digitales-para-educamadrid.html
+2021-08-01 13:54:40 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/activity.xml
+2021-08-01 13:54:40 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/robots.txt
+2021-08-01 13:54:40 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/pruebas-premios-extraordinarios
+2021-08-01 13:54:40 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:40 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.educa2.madrid.org/web/innovacioneducativa/actividadesculturalesyartisticas
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/logo-rseq-2016.jpg
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/FiquipediaQR.png
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/2017-06-23-LogoFiquipedia.png
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/pruebas-de-acceso-a-grado-medio/ficheros-pruebas-acceso-grado-medio/GM-PruebaAcceso-MateriaEnergia-soluc.pdf
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/pruebas-de-acceso-a-grado-medio/ficheros-pruebas-acceso-grado-medio/GM-PruebaAcceso-Mecánica.pdf
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/pruebas-de-acceso-a-grado-medio/ficheros-pruebas-acceso-grado-medio/GM-PruebaAcceso-MateriaEnergia.pdf
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/pruebas-de-acceso-a-grado-medio/ficheros-pruebas-acceso-grado-medio/GM-PruebaAcceso-Mecánica-soluc.pdf
+2021-08-01 13:54:42 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/pruebas-de-acceso-a-grado-medio/normativa-y-curriculo-pruebas-acceso-grado-medio/GM-Temario-Anexo5-Orden4879-2008.pdf
+2021-08-01 13:54:42 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/fpbasica/moduloprofesionalcienciasaplicadasi3009/curriculomoduloprofesionalcienciasaplicadasi3009
+2021-08-01 13:54:42 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:42 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.bocm.es/boletin/CM_Orden_BOCM/2020/05/18/BOCM-20200518-1.PDF#page=22
+2021-08-01 13:54:43 DEBUG    [59]HTML2md.py: Copying: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/.DS_Store
+2021-08-01 13:54:43 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/curriculo-fisica-y-quimica-2-eso
+2021-08-01 13:54:43 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.boe.es/boe/dias/2015/07/21/pdfs/BOE-A-2015-8149.pdf#page=132
+2021-08-01 13:54:44 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ciencias-de-la-naturaleza-1y2eso
+2021-08-01 13:54:44 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:44 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ambito-cientifico-matematico---pmar
+2021-08-01 13:54:44 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:44 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.boe.es/buscar/act.php?id=BOE-A-2015-37#a19
+2021-08-01 13:54:45 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/4-eso-biologia-y-geologia
+2021-08-01 13:54:45 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:45 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ampliacion-fisica-y-quimica-4-eso/curriculo-ampliacion-fisica-quimica-4-eso
+2021-08-01 13:54:45 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:45 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ampliacion-fisica-y-quimica-4-eso/curriculo-ampliacion-fisica-quimica-4-eso-lomce
+2021-08-01 13:54:45 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:45 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.bocm.es/boletin/CM_Orden_BOCM/2016/07/01/BOCM-20160701-7.PDF
+2021-08-01 13:54:46 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/cultura-cientifica-4-eso/recursos-cultura-cientifica-4-eso
+2021-08-01 13:54:46 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:46 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.quora.com/Why-do-so-many-people-blindly-accept-the-global-warming-hypothesis-without-making-any-unbiased-research/answer/Diane-Burrell-1
+2021-08-01 13:54:47 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/cultura-cientifica-4-eso/curriculo-cultura-cientifica-4-eso
+2021-08-01 13:54:47 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:47 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ciencias-aplicadas-a-la-actividad-profesional-4-eso/curriculo-ciencias-aplicadas-a-la-actividad-profesional-4-eso-lomce
+2021-08-01 13:54:47 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:47 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ciencias-aplicadas-a-la-actividad-profesional-4-eso/curriculo-ciencias-aplicadas-a-la-actividad-profesional-4-eso
+2021-08-01 13:54:47 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:47 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisicayquimica-4eso/contenidos-del-curriculo-con-enlaces-a-recursos-4-eso-fisica-y-quimica
+2021-08-01 13:54:47 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:47 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://aprendiendociencias.wordpress.com/fisica-y-quimica-para-4%C2%BA-eso/
+2021-08-01 13:54:48 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://aprendiendociencias.wordpress.com/category/4-eso/
+2021-08-01 13:54:49 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://fyq4eso.wordpress.com/
+2021-08-01 13:54:49 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://recursostic.educacion.es/secundaria/edad/4esofisicaquimica/4quincena8/4q8_index.htm
+2021-08-01 13:54:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://recursostic.educacion.es/secundaria/edad/3esofisicaquimica/3quincena6/3q6_index.htm
+2021-08-01 13:54:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://recursostic.educacion.es/secundaria/edad/3esofisicaquimica/3quincena6/actividades6/masa_ponderada.htm
+2021-08-01 13:54:50 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisicayquimica-4eso/curriculofisicayquimica-4eso
+2021-08-01 13:54:50 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:50 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisicayquimica-4eso/curriculo-fisica-y-quimica-4-eso-lomce
+2021-08-01 13:54:50 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/FiQuiPedia/status/645638063050346496
+2021-08-01 13:54:50 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisica-y-quimica-3-eso/curriculofisicayquimica-3eso
+2021-08-01 13:54:50 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:50 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisica-y-quimica-3-eso/curriculo-3-eso-fisica-y-quimica-lomce
+2021-08-01 13:54:50 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:50 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisica-y-quimica-3-eso/cotenidoscurriculoenlacesrecursos3esofisicayquimica
+2021-08-01 13:54:50 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:51 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/fisica-y-quimica-2-eso/recursos-fisica-y-quimica-2-eso
+2021-08-01 13:54:51 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:54:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://fisquiweb.es/Apuntes/apun2.htm
+2021-08-01 13:54:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://clasesfisicayquimica.blogspot.com.es/p/fisica-y-quimica-2-eso.html
+2021-08-01 13:54:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://fq.iespm.es/index.php/secundaria-obligatoria/fisica-y-quimica-2-eso/materiales
+2021-08-01 13:54:54 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://fisicayquimicaenflash.es/eso/eso.html
+2021-08-01 13:54:54 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www3.gobiernodecanarias.org/medusa/ecoblog/mramrodp/category/cna-2o-eso/
+2021-08-01 13:55:37 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.educa2.madrid.org/web/clasefyq/fq-2-eso
+2021-08-01 13:55:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/playlist?list=PL16zm8z0lIv16dqCv1Z_8q-c2cd1nigUH
+2021-08-01 13:55:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.cuadernosdepedagogia.com/Content/Documento.aspx?params=H4sIAAAAAAAEAFXMuwrDMAxG4bfxrDoknTTFj-C9qNFvMDVScS6Qt2-zFHrmw1dVOWX6NtyGaZzCgb5WN44Uie6Rgrkip5l3U5Rq0Gup5Uy-5PMNLtJWBDzdX3_S4ycsDdKTbJilwVQ6577jAwZVn2N6AAAAWKE
+2021-08-01 13:55:42 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://currofisico.blogspot.com/p/materiales.html
+2021-08-01 13:55:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://6con02.com/24-bloques/ciencias-naturales/14-b-%C2%B7-cuaderno-verano-2%C2%BA-eso.html
+2021-08-01 13:55:43 WARNING  [146]URLUtils.py: Error reading URL: http://6con02.com/24-bloques/ciencias-naturales/14-b-%C2%B7-cuaderno-verano-2%C2%BA-eso.html : Not Found
+2021-08-01 13:55:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://6con02.com/_data/cuadernos/cuad_verano_2eso.pdf
+2021-08-01 13:55:44 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/eso/ambitocientificotecnologico-diversificacion/ambitocientificotecnologico-diversificacion-curriculo
+2021-08-01 13:55:44 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:55:44 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/ampliacion-fisica-quimica-1-bachillerato
+2021-08-01 13:55:44 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:55:44 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.bocm.es/boletin/CM_Orden_BOCM/2017/06/27/BOCM-20170627-15.PDF
+2021-08-01 13:55:44 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/desarrollo-experimental-2-bachillerato
+2021-08-01 13:55:44 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:55:44 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.madrid.org/es/transparencia/normativa/proyecto-orden-consejeria-educacion-e-investigacion-que-se-aprueban-materias-libre-1
+2021-08-01 13:55:46 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.bocm.es/boletin/CM_Orden_BOCM/2018/06/14/BOCM-20180614-16.PDF
+2021-08-01 13:55:47 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/mecanica-2-bachillerato
+2021-08-01 13:55:47 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:55:47 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.boe.es/diario_boe/txt.php?id=BOE-A-2004-2972
+2021-08-01 13:55:48 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.sc.ehu.es/sbweb/ocw-fisica/problemas/problemas.xhtml#solido
+2021-08-01 13:55:48 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://umh1228.edu.umh.es/material/
+2021-08-01 13:55:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://umh1228.edu.umh.es/material/teoria/
+2021-08-01 13:55:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://umh1228.edu.umh.es/material/problemas-con-solucion/
+2021-08-01 13:55:51 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/cultura-cientifica-1-bachillerato/recursos-cultura-cientifica-1-bachillerato
+2021-08-01 13:55:51 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:55:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://fisicayquimicaayora.wikispaces.com/CULTURA+CIENT%C3%8DFICA
+2021-08-01 13:55:51 WARNING  [146]URLUtils.py: Error reading URL: https://fisicayquimicaayora.wikispaces.com/CULTURA+CIENT%C3%8DFICA : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 13:55:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://elvuelodelalechuza.com/2017/11/04/la-importancia-social-de-la-divulgacion-y-la-cultura-cientifica/
+2021-08-01 13:55:53 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=etmYwBTDpqA
+2021-08-01 13:55:54 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.homethemovie.org/es/educacion/home-educacion
+2021-08-01 13:55:55 WARNING  [146]URLUtils.py: Error reading URL: http://www.homethemovie.org/es/educacion/home-educacion : Internal Server Error
+2021-08-01 13:55:55 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=SWRHxh6XepM&feature=youtu.be
+2021-08-01 13:55:56 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt1454110/
+2021-08-01 13:55:58 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0298814/
+2021-08-01 13:56:00 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elprofedefisica.naukas.com/2016/10/14/el-nucleo-the-core-y-el-error-que-no-fue/
+2021-08-01 13:56:00 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=zocutif0cQY
+2021-08-01 13:56:01 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/diario/2003/06/04/futuro/1054677605_850215.html
+2021-08-01 13:56:02 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.nature.com/nature/journal/v423/n6937/full/423239a.html
+2021-08-01 13:56:03 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://news.bbc.co.uk/2/hi/science/nature/3021255.stm
+2021-08-01 13:56:03 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/diario/2004/04/28/futuro/1083103202_850215.html
+2021-08-01 13:56:04 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://query.nytimes.com/gst/fullpage.html?res=9405E0D71E3EF935A1575BC0A9639C8B63
+2021-08-01 13:56:05 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.investigacionyciencia.es/revistas/investigacion-y-ciencia/numero/202/donde-el-ncleo-limita-con-el-manto-5045
+2021-08-01 13:56:10 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://portalcomunicacion.uah.es/diario-digital/reportaje/el-movimiento-terraplanista-confirma-la-perdida-del-prestigio-social-de-la-ciencia-segun-el-profesor-cabos-de-la-uah.html
+2021-08-01 13:56:12 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://local12.com/news/local/ohio-house-passes-bill-allowing-student-answers-to-be-scientifically-wrong-due-to-religion
+2021-08-01 13:56:13 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://hipertextual.com/2020/08/google-ayudara-detectar-terremotos-android
+2021-08-01 13:56:14 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://recursos.cnice.mec.es/biosfera/alumno/1bachillerato/estrucinternatierra/index.htm
+2021-08-01 13:56:15 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://recursos.cnice.mec.es/biosfera/alumno/1bachillerato/estrucinternatierra/contenido2.htm
+2021-08-01 13:56:15 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.educa.madrid.org/web/ies.alonsoquijano.alcala/carpeta5/carpetas/quienes/departamentos/ccnn/CCNN-1-2-ESO/2eso/2ESO-12-13/Bloque-II/Tema-1-Energia-interna-Tierra-I/Tema-1-E-I-Tierra-I.htm
+2021-08-01 13:56:15 WARNING  [146]URLUtils.py: Error reading URL: http://www.educa.madrid.org/web/ies.alonsoquijano.alcala/carpeta5/carpetas/quienes/departamentos/ccnn/CCNN-1-2-ESO/2eso/2ESO-12-13/Bloque-II/Tema-1-Energia-interna-Tierra-I/Tema-1-E-I-Tierra-I.htm : Not Found
+2021-08-01 13:56:15 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.librosvivos.net/smtc/homeTC.asp?TemaClave=1187&idIdioma=ES
+2021-08-01 13:56:16 WARNING  [146]URLUtils.py: Error reading URL: http://www.librosvivos.net/smtc/homeTC.asp?TemaClave=1187&idIdioma=ES : Not Found
+2021-08-01 13:56:16 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://bioprofe4.blogspot.com.es/search/label/TECT%C3%93NICA%20DE%20PLACAS
+2021-08-01 13:56:17 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/James_Ussher
+2021-08-01 13:56:19 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://algoquedaquedecir.blogspot.com/2017/11/la-tierra-es-plana-y-yo-tengo-un-dragon.html
+2021-08-01 13:56:20 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.lavozdegalicia.es/noticia/sociedad/2018/12/30/descubrio-edad-tierra/0003_201812H30P51991.htm
+2021-08-01 13:56:21 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.quora.com/C%C3%B3mo-se-determina-la-edad-de-la-Tierra
+2021-08-01 13:56:22 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt1537761/
+2021-08-01 13:56:24 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=cpyQRzx5exg
+2021-08-01 13:56:24 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt2914058/
+2021-08-01 13:56:26 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=B-m1gx0s0Ro
+2021-08-01 13:56:27 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0082484
+2021-08-01 13:56:29 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0090848/
+2021-08-01 13:56:32 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=P0giXTjclyQ
+2021-08-01 13:56:33 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=Jno9DqbVDdY
+2021-08-01 13:56:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=reeWIckqbUw
+2021-08-01 13:56:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.elmundo.es/papel/lideres/2016/10/30/58121c89468aebbe468b4585.html
+2021-08-01 13:56:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://culturacientifica.com/2016/10/02/la-historia-la-vida/
+2021-08-01 13:56:36 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/elpais/2016/09/21/ciencia/1474454952_783786.html
+2021-08-01 13:56:37 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.elmundo.es/elmundo/2013/10/17/ciencia/1382029806.html
+2021-08-01 13:56:37 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/diario/2008/01/10/sociedad/1199919603_850215.html
+2021-08-01 13:56:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.desdeelexilio.com/2009/01/14/el-origen-de-la-vida-entrevista-a-robert-shapiro/
+2021-08-01 13:56:39 WARNING  [146]URLUtils.py: Error reading URL: http://www.desdeelexilio.com/2009/01/14/el-origen-de-la-vida-entrevista-a-robert-shapiro/ : Service Unavailable
+2021-08-01 13:56:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.becominghuman.org/
+2021-08-01 13:56:40 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elrastaqueespecula.blogspot.com.es/2010/06/el-arbol-filogenetico-circular.html
+2021-08-01 13:56:41 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.zo.utexas.edu/faculty/antisense/DownloadfilesToL.html
+2021-08-01 13:56:42 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.farmaindustria.es/web/wp-content/uploads/sites/2/2014/01/proceso_de_ID_de_un_medicamento2.pdf
+2021-08-01 13:56:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.farmaindustria.es/web/area/id/
+2021-08-01 13:56:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.farmaindustria.es/web/wp-content/uploads/sites/2/2020/04/repor_ID_medicamentos-2-1.pdf
+2021-08-01 13:56:44 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/GCentinela/status/919306201724260354
+2021-08-01 13:56:44 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/waltzing_piglet/status/959805490854326277
+2021-08-01 13:56:44 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.isglobal.org/healthisglobal/-/custom-blog-portlet/como-desmontar-cientificamente-los-4-principales-argumentos-antivacunas/3098670/0
+2021-08-01 13:56:45 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.farmaindustria.es/web/el-valor-de-las-vacunas/
+2021-08-01 13:56:45 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://medicamentalia.org/vaccines/exitos/
+2021-08-01 13:56:46 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.microsiervos.com/archivo/ciencia/impacto-introduccion-vacunas-contra-enfermedades-contagiosas.html
+2021-08-01 13:56:47 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.iflscience.com/health-and-medicine/anti-vaxxers-fund-study-finds-zero-link-between-vaccinations-and-autism/
+2021-08-01 13:56:48 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.theguardian.com/society/2015/apr/21/no-link-between-mmr-and-autism-major-study-concludes
+2021-08-01 13:56:48 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.cdc.gov/vaccinesafety/concerns/autism.html
+2021-08-01 13:56:49 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://naukas.com/2013/12/11/diagrama-de-flujo-que-explica-la-homeopatia/
+2021-08-01 13:56:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://naukas.com/2017/01/23/carta-abierta-quimico-los-homeopatas/
+2021-08-01 13:56:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elprofedefisica.naukas.com/2017/05/27/muerte-por-homeopatia/
+2021-08-01 13:56:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://archive.org/details/AQSLibroHomeopatia
+2021-08-01 13:56:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elprofedefisica.es/libro_homeopatia/
+2021-08-01 13:56:53 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.publico.es/tremending/2017/06/21/twitter-el-genial-hilo-en-respuesta-a-un-tuit-sobre-la-homeopatia/
+2021-08-01 13:56:55 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://marionetas.sinergiasincontrol.com/?id=2
+2021-08-01 13:56:55 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://naukas.com/2013/12/05/las-bases-fisicas-de-la-homeopatica-el-articulo-rey/
+2021-08-01 13:56:56 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elprofedefisica.naukas.com/2016/02/15/otra-prueba-de-las-bases-fisicas-de-la-homeopatia-o-no/
+2021-08-01 13:56:56 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0070723
+2021-08-01 13:56:58 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0099077/
+2021-08-01 13:57:00 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Despertares
+2021-08-01 13:57:01 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0195685/
+2021-08-01 13:57:03 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Erin_Brockovich_(pel%C3%ADcula)
+2021-08-01 13:57:04 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0387131/
+2021-08-01 13:57:06 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/El_jardinero_fiel_(pel%C3%ADcula)
+2021-08-01 13:57:07 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0386032/
+2021-08-01 13:57:08 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Sicko
+2021-08-01 13:57:09 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Better_Living_Through_Chemistry_(pel%C3%ADcula)
+2021-08-01 13:57:10 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt5562652/
+2021-08-01 13:57:12 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://en.wikipedia.org/wiki/Vaxxed
+2021-08-01 13:57:12 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/elpais/2015/04/14/buenavida/1429007036_893966.html
+2021-08-01 13:57:13 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.elmundo.es/salud/2016/07/14/57868a0e46163f6f338b4578.html
+2021-08-01 13:57:14 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.eldiario.es/sociedad/antivacunas-Trump-salud_0_601240014.html
+2021-08-01 13:57:15 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/elpais/2016/12/23/ciencia/1482509617_105561.html
+2021-08-01 13:57:16 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/brutofficiel/status/870329503020720129
+2021-08-01 13:57:16 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.dnalc.org/
+2021-08-01 13:57:18 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.dnalc.org/resources/3d/
+2021-08-01 13:57:20 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://docentes.educacion.navarra.es/metayosa/3esogenetica1.html
+2021-08-01 13:57:21 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.investigacionyciencia.es/noticias/por-qu-las-mitocondrias-cuentan-con-su-propio-adn-13995
+2021-08-01 13:57:21 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://docentes.educacion.navarra.es/metayosa/3esogenetica11.html
+2021-08-01 13:57:21 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.sciencealert.com/this-video-explains-perfectly-why-crispr-really-will-change-humanity-forever
+2021-08-01 13:57:22 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://microbioun.blogspot.com.es/2015/07/las-bacterias-tambien-se-vacunan-el.html
+2021-08-01 13:57:25 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=GOK6FkfmHdQ
+2021-08-01 13:57:25 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.nature.com/news/why-the-crispr-patent-verdict-isn-t-the-end-of-the-story-1.21510?WT.ec_id=NEWSDAILY-20170220
+2021-08-01 13:57:26 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.nature.com/news/five-big-mysteries-about-crispr-s-origins-1.21294
+2021-08-01 13:57:27 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0119177
+2021-08-01 13:57:29 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://archive.org/details/Gattaca
+2021-08-01 13:57:30 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0083658/
+2021-08-01 13:57:32 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Blade_Runner
+2021-08-01 13:57:32 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0399201/
+2021-08-01 13:57:35 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://terapeuticaenfermera.wordpress.com/2011/02/15/genes-%C2%BFsomos-lo-que-comemos-epigenetics-2008-documental-c-odisea/
+2021-08-01 13:57:35 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=wTVamcOpjGI
+2021-08-01 13:57:36 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://francis.naukas.com/2012/09/06/el-proyecto-piloto-encode-dice-adios-al-adn-basura-el-80-del-adn-tiene-funciones-bioquimicas/
+2021-08-01 13:57:37 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.investigacionyciencia.es/revistas/investigacion-y-ciencia/numero/461/la-edicin-gentica-ms-precisa-12843
+2021-08-01 13:57:38 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.elconfidencial.com/tecnologia/2016-11-16/la-tecnica-de-edicion-genetica-crispr-es-probada-por-primera-vez-en-humanos_1290397/
+2021-08-01 13:57:39 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.nationalgeographic.com.es/ciencia/actualidad/prueban-tecnica-edicion-genetica-crispr-para-curar-cancer_10868
+2021-08-01 13:57:40 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://elpais.com/elpais/2016/09/27/ciencia/1474989059_678680.html
+2021-08-01 13:57:41 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://elpais.com/elpais/2017/07/27/ciencia/1501150753_958985.html
+2021-08-01 13:57:42 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://books.google.es/books?id=XCQ9BgAAQBAJ
+2021-08-01 13:57:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.evolutionoftheweb.com/
+2021-08-01 13:57:45 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736176741&menu=ultiDatos&idp=1254735976608
+2021-08-01 13:57:46 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://sudhakar.online/assets/how-https-works.jpg
+2021-08-01 13:57:47 WARNING  [146]URLUtils.py: Error reading URL: http://sudhakar.online/assets/how-https-works.jpg : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 13:57:47 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://flexo.es/10-infografias-que-te-ayudaran-a-utilizar-mejor-las-redes-sociales/
+2021-08-01 13:57:48 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.blogpocket.com/2013/02/19/las-redes-sociales-explicadas-para-ninos/
+2021-08-01 13:57:49 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://mozy.com/blog/infographics/physical-storage-vs-digital-storage/
+2021-08-01 13:57:49 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0084827/
+2021-08-01 13:57:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0085271/
+2021-08-01 13:57:53 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0113957/
+2021-08-01 13:57:55 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0113243/
+2021-08-01 13:57:56 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0120660/
+2021-08-01 13:57:58 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0133093/
+2021-08-01 13:57:59 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0139809/
+2021-08-01 13:58:01 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0159784/
+2021-08-01 13:58:03 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0308808/
+2021-08-01 13:58:05 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0315417/
+2021-08-01 13:58:06 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=mVtL9EKy1zE
+2021-08-01 13:58:07 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0212720/
+2021-08-01 13:58:09 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0218817/
+2021-08-01 13:58:11 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0343818/
+2021-08-01 13:58:13 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt0808532/
+2021-08-01 13:58:15 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt1285016/
+2021-08-01 13:58:17 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt1830538/
+2021-08-01 13:58:18 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt2084953/
+2021-08-01 13:58:20 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt1824254/
+2021-08-01 13:58:22 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt2033981/
+2021-08-01 13:58:24 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt2080374/
+2021-08-01 13:58:26 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.imdb.com/title/tt3312868/
+2021-08-01 13:58:28 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.publico.es/internacional/wikileaks-cia-movil-television-whatsapp.html
+2021-08-01 13:58:28 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.genbeta.com/seguridad/el-fbi-retira-los-cargos-contra-un-pedofilo-para-no-revelar-como-lo-identificaron-en-la-darknet
+2021-08-01 13:58:29 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.enriquedans.com/2017/03/llegara-el-smartphone-a-sustituir-al-ordenador.html
+2021-08-01 13:58:29 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://arstechnica.com/gadgets/2017/06/ibm-5nm-chip/
+2021-08-01 13:58:30 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Criptonomic%C3%B3n
+2021-08-01 13:58:31 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Steve_Jobs_(libro)
+2021-08-01 13:58:31 DEBUG    [161]HTMLParser2md.py: Managing Google Drive URL: https://drive.google.com/open?id=0B-t5SY0w2S8iekx2NjEtTFo2UFk
+2021-08-01 13:58:31 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iekx2NjEtTFo2UFk?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:32 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iekx2NjEtTFo2UFk?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:32 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iekx2NjEtTFo2UFk?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:32 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iaGtPZGpYaEE5SE0?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:32 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iZVJwQjFTRFVpZmM?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:33 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iekx2NjEtTFo2UFk?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:33 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files/0B-t5SY0w2S8iekx2NjEtTFo2UFk?fields=id%2C+name%2C+parents%2C+mimeType&alt=json
+2021-08-01 13:58:33 DEBUG    [1160]discovery.py: URL being requested: GET https://www.googleapis.com/drive/v3/files?q=%270B-t5SY0w2S8iekx2NjEtTFo2UFk%27+in+parents&pageSize=10&fields=nextPageToken%2C+files%28id%2C+name%2C+mimeType%29&alt=json
+2021-08-01 13:58:33 INFO     [309]GoogleDriveWrapper.py: No files found.
+2021-08-01 13:58:34 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/cultura-cientifica-1-bachillerato/curriculo-cultura-cientifica-1-bachillerato
+2021-08-01 13:58:34 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:34 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/electrotecnia-2bachillerato/curriculoelectrotecnia-2bachillerato
+2021-08-01 13:58:34 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.boe.es/diario_boe/txt.php?id=BOE-A-2015-37
+2021-08-01 13:58:34 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/fisicayquimica-1bachillerato/curriculofisicayquimica-1bachillerato
+2021-08-01 13:58:34 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:34 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/fisicayquimica-1bachillerato/curriculo-fisica-y-quimica-1-bachillerato-lomce
+2021-08-01 13:58:34 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/FiQuiPedia/status/760861873218654209
+2021-08-01 13:58:34 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://es.wikipedia.org/wiki/Molecularidad
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/fisicayquimica-1bachillerato/contenidoscurriculoenlacesrecursosfisicaquimica1bachillerato
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/cienciasparaelmundocontemporaneo-1bachillerato/curriculocienciasparaelmundocontemporaneo-1bachillerato
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/quimica-2bachillerato/curriculo-quimica-2-bachillerato-lomce
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/quimica-2bachillerato/curriculoquimica-2bachillerato
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/quimica-2bachillerato/contenidoscurriculoenlacesrecursosquimica2bachillerato
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/fisica-2bachillerato/contenidoscurriculoenlacesrecursosfisica2bachillerato
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/fisica-2bachillerato/curriculo-fisica-2-bachillerato-lomce
+2021-08-01 13:58:35 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:35 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.boe.es/boe/dias/2016/12/23/pdfs/BOE-A-2016-12219.pdf#page=29
+2021-08-01 13:58:36 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.um.es/phi/aguirao/PAU/LegislacionPAU/Comparacion%20temarios%20PAU.pdf
+2021-08-01 13:58:42 WARNING  [146]URLUtils.py: Error reading URL: http://www.um.es/phi/aguirao/PAU/LegislacionPAU/Comparacion%20temarios%20PAU.pdf : Not Found
+2021-08-01 13:58:42 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/FiQuiPedia/status/760765138635001856
+2021-08-01 13:58:42 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://en.wikipedia.org/wiki/Transmitter#How_it_works
+2021-08-01 13:58:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://en.wikipedia.org/wiki/LC_circuit
+2021-08-01 13:58:43 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/materias/bachillerato/fisica-2bachillerato/curriculofisica2bachillerato
+2021-08-01 13:58:43 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:43 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/recursos/recursos-museos-y-centros-de-ciencia
+2021-08-01 13:58:43 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:43 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://obrasociallacaixa.org/es/ciencia/cosmocaixa/el-museo
+2021-08-01 13:58:47 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.museosdetenerife.org/mcc-museo-de-la-ciencia-y-el-cosmos
+2021-08-01 13:58:49 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.cite-sciences.fr/en/home/
+2021-08-01 13:58:50 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.deutsches-museum.de/index.php?id=1&L=1
+2021-08-01 13:58:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://en.experimentarium.dk/
+2021-08-01 13:58:51 WARNING  [146]URLUtils.py: Error reading URL: https://en.experimentarium.dk/ : [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'en.experimentarium.dk'. (_ssl.c:1108)
+2021-08-01 13:58:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.exploratorium.edu
+2021-08-01 13:58:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://sln.fi.edu
+2021-08-01 13:58:52 WARNING  [146]URLUtils.py: Error reading URL: http://sln.fi.edu : Forbidden
+2021-08-01 13:58:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.heureka.fi/en
+2021-08-01 13:58:54 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.lhs.berkeley.edu
+2021-08-01 13:58:55 WARNING  [146]URLUtils.py: Error reading URL: http://www.lhs.berkeley.edu : Unknown site
+2021-08-01 13:58:55 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.ontariosciencecentre.ca/
+2021-08-01 13:58:56 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/recursos/termodinamica
+2021-08-01 13:58:56 INFO     [49]__init__.py: file_cache is only supported with oauth2client<4.0.0
+2021-08-01 13:58:56 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://joule.qfa.uam.es/beta-2.0/index.php
+2021-08-01 14:00:12 WARNING  [146]URLUtils.py: Error reading URL: http://joule.qfa.uam.es/beta-2.0/index.php : [Errno 60] Operation timed out
+2021-08-01 14:00:12 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.selectividadonline.com/descargar-documento/termoquimica
+2021-08-01 14:00:15 WARNING  [146]URLUtils.py: Error reading URL: http://www.selectividadonline.com/descargar-documento/termoquimica : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 14:00:15 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo1p/termo1p_portada.html
+2021-08-01 14:02:45 WARNING  [146]URLUtils.py: Error reading URL: http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo1p/termo1p_portada.html : [Errno 60] Operation timed out
+2021-08-01 14:02:45 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo2p/termo2p_portada.html
+2021-08-01 15:13:51 WARNING  [146]URLUtils.py: Error reading URL: http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo2p/termo2p_portada.html : [Errno 51] Network is unreachable
+2021-08-01 15:13:51 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.biopsychology.org/apuntes/termodin/termodin.htm
+2021-08-01 15:13:51 WARNING  [146]URLUtils.py: Error reading URL: http://www.biopsychology.org/apuntes/termodin/termodin.htm : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://depa.fquim.unam.mx/amyd/archivero/PROPIEDADESTERMODINAMICAS_14534.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://depa.fquim.unam.mx/amyd/archivero/PROPIEDADESTERMODINAMICAS_14534.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://web.mit.edu/16.unified/www/FALL/thermodynamics/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://web.mit.edu/16.unified/www/FALL/thermodynamics/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://es.pfernandezdiez.es/?pageID=2
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://es.pfernandezdiez.es/?pageID=2 : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.sc.ehu.es/sbweb/fisica/examenes/termo/termo.htm
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://www.sc.ehu.es/sbweb/fisica/examenes/termo/termo.htm : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://perso.wanadoo.es/lolymestre/juliweb/librotermodinamica.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://perso.wanadoo.es/lolymestre/juliweb/librotermodinamica.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://juliweb.es/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://juliweb.es/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.utnianos.com.ar/foro/tema-termodin%C3%A1mica-fra-parciales-y-ejercicios-resueltos-finales
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://www.utnianos.com.ar/foro/tema-termodin%C3%A1mica-fra-parciales-y-ejercicios-resueltos-finales : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.cartagena99.com/recursos/alumnos/examenes/examenes.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://www.cartagena99.com/recursos/alumnos/examenes/examenes.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://en.wikipedia.org/wiki/First_law_of_thermodynamics#Description
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://en.wikipedia.org/wiki/First_law_of_thermodynamics#Description : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://media.iupac.org/publications/books/gbook/IUPAC-GB3-2ndPrinting-Online-22apr2011.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://media.iupac.org/publications/books/gbook/IUPAC-GB3-2ndPrinting-Online-22apr2011.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://iupac.org/what-we-do/books/greenbook/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: https://iupac.org/what-we-do/books/greenbook/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://iupac.org/wp-content/uploads/2019/05/IUPAC-GB3-2012-2ndPrinting-PDFsearchable.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: https://iupac.org/wp-content/uploads/2019/05/IUPAC-GB3-2012-2ndPrinting-PDFsearchable.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://laplace.us.es/wiki/index.php/Trabajo_en_termodin%C3%A1mica_(GIE)#Convenio_de_signos
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://laplace.us.es/wiki/index.php/Trabajo_en_termodin%C3%A1mica_(GIE)#Convenio_de_signos : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://laplace.us.es/wiki/index.php/Primer_principio_de_la_termodin%C3%A1mica_(GIE)
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://laplace.us.es/wiki/index.php/Primer_principio_de_la_termodin%C3%A1mica_(GIE) : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://oscardeabril.aq.upm.es/clases/pdfs/Tema%209_Primer%20principio%20de%20la%20termodinamica.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://oscardeabril.aq.upm.es/clases/pdfs/Tema%209_Primer%20principio%20de%20la%20termodinamica.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://naukas.com/2013/01/04/que-significa-que-un-gas-cuantico-tiene-una-temperatura-negativa/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://naukas.com/2013/01/04/que-significa-que-un-gas-cuantico-tiene-una-temperatura-negativa/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://francis.naukas.com/2013/01/04/francis-en-naukas-con-adenda-que-significa-que-un-gas-cuantico-tiene-una-temperatura-negativa/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://francis.naukas.com/2013/01/04/francis-en-naukas-con-adenda-que-significa-que-un-gas-cuantico-tiene-una-temperatura-negativa/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/playlist?list=PLbnrZHfNEDZxmZmL3fZHPTeoUO8amBox2
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: https://www.youtube.com/playlist?list=PLbnrZHfNEDZxmZmL3fZHPTeoUO8amBox2 : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://kinetics.nist.gov/janaf/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://kinetics.nist.gov/janaf/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo1p/termo1p_portada.html
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo1p/termo1p_portada.html : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://laplace.us.es/wiki/index.php/Problemas_del_primer_principio_de_la_termodin%C3%A1mica_%28GIE%29
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://laplace.us.es/wiki/index.php/Problemas_del_primer_principio_de_la_termodin%C3%A1mica_%28GIE%29 : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://chemwiki.ucdavis.edu/Core/Physical_Chemistry/Thermodynamics/Chemical_Energetics/The_First_Law_of_Thermodynamics
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://chemwiki.ucdavis.edu/Core/Physical_Chemistry/Thermodynamics/Chemical_Energetics/The_First_Law_of_Thermodynamics : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo2p/termo2p_portada.html
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://acer.forestales.upm.es/basicas/udfisica/asignaturas/fisica/termo2p/termo2p_portada.html : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://laplace.us.es/wiki/index.php/Ciclo_de_Carnot
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://laplace.us.es/wiki/index.php/Ciclo_de_Carnot : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://aatishb.github.io/entropy/
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: https://aatishb.github.io/entropy/ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://twitter.com/AndrewM_Webb/status/1182208172100116480
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://osumarion.osu.edu/sciencecafe/October10ScienceCafe.ppt
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://osumarion.osu.edu/sciencecafe/October10ScienceCafe.ppt : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.evolution-outreach.com/content/6/1/30
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://www.evolution-outreach.com/content/6/1/30 : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://books.google.es/books?id=SSu_BAAAQBAJ
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://books.google.es/books?id=SSu_BAAAQBAJ : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.physikdidaktik.uni-karlsruhe.de/publication/Historical_burdens/24_Entropy.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://www.physikdidaktik.uni-karlsruhe.de/publication/Historical_burdens/24_Entropy.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://lsg.ucy.ac.cy/girep2008/papers/DON%E2%80%99T%20BE%20AFRAID%20-%20IT%20IS%20JUST%20ENTROPY%20CALLENDAR%E2%80%99S%20IDEA%20ABOUT%20ENTROPY.pdf
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://lsg.ucy.ac.cy/girep2008/papers/DON%E2%80%99T%20BE%20AFRAID%20-%20IT%20IS%20JUST%20ENTROPY%20CALLENDAR%E2%80%99S%20IDEA%20ABOUT%20ENTROPY.pdf : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://www.chem1.com/acad/webtext/thermeq/index.html
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://www.chem1.com/acad/webtext/thermeq/index.html : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://laplace.us.es/wiki/index.php/Entrop%C3%ADa
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://laplace.us.es/wiki/index.php/Entrop%C3%ADa : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.youtube.com/watch?v=LetmPf0XLBk
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: https://www.youtube.com/watch?v=LetmPf0XLBk : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://termograf.unizar.es/www/descargas/termograf.htm
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://termograf.unizar.es/www/descargas/termograf.htm : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_joule&l=es
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: https://www.vascak.cz/data/android/physicsatschool/templateimg.php?s=mf_joule&l=es : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [29]HTML2mdConverter.py: Replace link description with the page title http://subaru.univ-lemans.fr/AccesLibre/UM/Pedago/physique/02/thermo/joule.html
+2021-08-01 15:13:52 WARNING  [146]URLUtils.py: Error reading URL: http://subaru.univ-lemans.fr/AccesLibre/UM/Pedago/physique/02/thermo/joule.html : [Errno 8] nodename nor servname provided, or not known
+2021-08-01 15:13:52 DEBUG    [48]HTML2md.py: HTML2MD: /Users/joaquin/PycharmProjects/fiquipedia-html/www.fiquipedia.es/home/recursos/teoremas-leyes
+2021-08-01 15:13:52 DEBUG    [182]requests.py: Making request: POST https://oauth2.googleapis.com/token
+2021-08-01 15:13:52 DEBUG    [971]connectionpool.py: Starting new HTTPS connection (1): oauth2.googleapis.com:443
