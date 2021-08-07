@@ -22,6 +22,8 @@ def print_help():
           'URL as URL description (only when URL link a description are the same). NOTE: This option can be slow.')
     print('\t-t, --timeout <seconds>: (Optional) Timeout, in seconds, to use in link validation connections, '
           'e.g. "2" seconds. By default is unlimited')
+    print('\t-m, --multiline : (Optional) Support for multiline content in table cells. (WARNING: Google Sites may '
+          'use internal tables in HTML which may not seem tables for the user. Use under your own risk!)')
 
 
 def main(argv):
@@ -29,6 +31,7 @@ def main(argv):
     destination = None
     url = False
     timeout = -1
+    multiline = False
 
     # Initialize logging component
     # SEE: https://docs.python.org/3/howto/logging.html
@@ -40,8 +43,8 @@ def main(argv):
     logging.info('Started')
 
     try:
-        opts, args = getopt.getopt(argv, "hs:d:t:u",
-                                   ["help", "source=", "dest=", "timeout=", "url"])
+        opts, args = getopt.getopt(argv, "hs:d:t:um",
+                                   ["help", "source=", "dest=", "timeout=", "url", "multiline"])
     except getopt.GetoptError:
         print_help()
         sys.exit(2)
@@ -69,7 +72,7 @@ def main(argv):
                  os.path.isdir(destination)):
 
             parser = HTML2md()
-            parser.process(source, destination, url, timeout)
+            parser.process(source, destination, url, timeout, multiline)
         else:
             print("\nWARNING: Source and Destination must be both files or both folders\n")
             sys.exit(2)

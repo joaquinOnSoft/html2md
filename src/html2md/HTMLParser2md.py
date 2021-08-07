@@ -43,7 +43,7 @@ class HTMLParser2md(HTMLParser):
     # Unordered list tag: <ul>
     HTML_TAG_UL = "ul"
 
-    def __init__(self, url: bool = False, timeout: int = -1):
+    def __init__(self, url: bool = False, timeout: int = -1, multiline: bool = False):
         """
         :param url: (boolean) Use the page title, header of level 1 or the last section of the
         URL as URL description (only when URL link a description are the same). NOTE: This option can be slow
@@ -53,6 +53,7 @@ class HTMLParser2md(HTMLParser):
 
         self.url = url
         self.timeout = timeout
+        self.multiline = multiline
 
         self.reset()
         self._md = ""
@@ -108,9 +109,7 @@ class HTMLParser2md(HTMLParser):
 
             self.links.append(self.href)
         elif tag == self.HTML_TAG_BR:
-            # Ignore <br> inside a table cell
-            if self.last_cell is None:
-                html2md = HTML2mdConverter.br(attrs)
+            html2md = self.br(attrs)
         elif tag == self.HTML_TAG_H1:
             html2md = HTML2mdConverter.H1
         elif tag == self.HTML_TAG_H2:
@@ -271,3 +270,14 @@ class HTMLParser2md(HTMLParser):
         if self.last_cell is None:
             md = "\n"
         return md
+
+    def br(self, attrs):
+        if self.last_cell is None:
+            html2md = HTML2mdConverter.br(attrs)
+        else:
+            # Manage <br> inside a table cell
+            if self.multiline:
+                html2md = "  \n"
+            else:
+                html2md = "  "
+        return html2md

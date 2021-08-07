@@ -59,7 +59,7 @@ class TestHTML2mdConverter(TestCase):
         self.assertEqual(f' [{expected_url_text}]({expected_url_link}) ', HTML2mdConverter.a(url, url, True, 2))
 
     def test__a_youtube(self):
-        self.assertEqual(" [![Joaquín Sabina La del Pirata Cojo](https://img.youtube.com/vi/MJF0dbZCVgQ/0.jpg)]"
+        self.assertEqual("\n\n[![Joaquín Sabina La del Pirata Cojo](https://img.youtube.com/vi/MJF0dbZCVgQ/0.jpg)]"
                          "(https://www.youtube.com/watch?v=MJF0dbZCVgQ) ",
                          HTML2mdConverter.a_youtube("MJF0dbZCVgQ", "Joaquín Sabina La del Pirata Cojo"))
 

@@ -23,6 +23,7 @@ where:
 	-d, --dest <dest_path>: (Mandatory) destination file or folder
 	-u, --url: (Optional) Use the page title, header of level 1 or the last section of the URL as URL description (only when URL link a description are the same). NOTE: This option can be slow.
 	-t, --timeout <seconds>: (Optional) Timeout, in seconds, to use in link validation connections, e.g. "2" seconds. By default is unlimited
+	-m, --multiline : (Optional) Support for multiline content in table cells. (WARNING: Google Sites may use internal tables in HTML which may not seem tables for the user. Use under your own risk!)	
 ```
 
 ## Setting up your development environment
